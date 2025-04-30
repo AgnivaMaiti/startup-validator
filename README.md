@@ -1,12 +1,3 @@
-### One-liner Description:
-
-**A simple Next.js app that uses the Gemini to analyze and validate startup ideas, providing insights on viability, target market, and monetization strategies.**
-
----
-
-### README for **Startup Idea Validator**
-
-````markdown
 # Startup Idea Validator
 
 A simple web app built with **Next.js** and **Google Gemini API** that helps validate startup ideas. Users can enter their idea, and the app provides feedback on its viability, target market, and monetization strategies.
@@ -27,10 +18,10 @@ A simple web app built with **Next.js** and **Google Gemini API** that helps val
 ## Setup
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/your-username/startup-validator.git
    ```
-````
 
 2. Navigate to the project folder:
 
@@ -65,8 +56,3 @@ This app can be deployed easily on platforms like [Vercel](https://vercel.com). 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-
----
-```
