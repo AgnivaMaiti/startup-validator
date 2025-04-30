@@ -1,5 +1,5 @@
-
 import { useState } from 'react'
+import ReactMarkdown from 'react-markdown'
 
 export default function Home() {
   const [idea, setIdea] = useState('')
@@ -31,9 +31,9 @@ export default function Home() {
       <button onClick={validateIdea} style={{ marginTop: 10, padding: '0.7rem 1.5rem' }}>
         {loading ? 'Validating...' : 'Validate'}
       </button>
-      <pre style={{ marginTop: 20, background: '#f9f9f9', padding: '1rem', whiteSpace: 'pre-wrap' }}>
-        {result}
-      </pre>
+      <div style={{ marginTop: 20, background: '#f9f9f9', padding: '1rem' }}>
+        <ReactMarkdown>{result}</ReactMarkdown>
+      </div>
     </main>
   )
 }
